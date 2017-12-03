@@ -1,0 +1,111 @@
+body{
+	background-image: url("https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0603/7308/r90s_pink_shop_preview.jpg");
+	margin: 50px;
+
+}
+
+h1{
+	color: gold;
+	font-size: 90px;
+	font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	text-align: center;
+	margin: 15px auto;
+	height: 100px;
+	width: 90%;
+	text-shadow:
+		-5px -5px 0 teal,
+		5px -5px 0 teal,
+		-5px 5px 0 teal,
+		5px 5px 0 teal;
+}
+
+#result {
+	color: teal;
+	font-size: 50px;
+	font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+	text-shadow:
+		-2px -2px 0 white,
+		2px -2px 0 white,
+		-2px 2px 0 white,
+		2px 2px 0 white;
+
+}
+
+#previous {
+	color: pink;
+	font-size: 120px;
+	font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+	text-shadow:
+		-3px -2px 0 teal,
+		3px -2px 0 teal,
+		-3px 2px 0 teal,
+		3px 2px 0 teal;
+}
+
+#lose {
+	color: white;
+	font-size: 40px;
+	font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+	text-shadow:
+		-3px -2px 0 gold,
+		3px -2px 0 gold,
+		-3px 2px 0 gold,
+		3px 2px 0 gold;
+	
+
+}
+
+#win {
+	color: white;
+	font-size: 40px;
+	font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+	text-shadow:
+		-3px -2px 0 gold,
+		3px -2px 0 gold,
+		-3px 2px 0 gold,
+		3px 2px 0 gold;
+	
+	
+
+}
+
+.score{
+	
+}
+
+.crystals{
+	display: flex;
+	justify-content: space-around; 
+	align-items: center;
+
+}
+
+.crystal{
+	border: 4px dotted white;
+	height: 200px;
+	width: 200px;
+	border-radius: 4px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+img{
+	width:50px;
+}
+
+#footer {
+   font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+   position:absolute;
+   color:teal;
+    width:300px;
+    height:100px;
+    bottom:0px;
+    right:25%;
+    left:50%;
+    margin-left:-150px;
+} 
+   
+}
